@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFF8DC;
+}
+
+.cabecalho{
+    width: 100%;
+    height: 100px;
+    background-color: #B0C4DE;
+    justify-items: center;
+}
+
+.f-h-arround{
+    display: flex;
+    justify-content: space-around;
+    height: 700px;
+    width: 100%;
+    margin-top: 20px;
+    
+}
+
+.noticia{
+    display: grid; 
+    place-items: center; 
+    font-size: 18px;
+    background-color: #A52A2A;
+    height: 700px;
+    width: 400px;
+    border-radius: 1%;
+    color: white;
+}
+
+.noticiaMeio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    height: 100vh; 
+    color: white;
+ 
+}
+
+.noticia2{
+    box-sizing: content-box;
+    height: 700px;
+    width: 550px;
+    background-color: #A52A2A;
+    border-radius: 1%;
+    color: white;
+    text-align: center;
+}
+
+.FotosDoHomemAranha{
+    height: 327px;
+    width: 367px;
+    border-radius: 5%;
+    margin-top: 100px;
+    
+}
+
+.FotosDoHomemAranha1{
+   
+    border-radius: 5%;
+    height: 390px;
+    width: 140px;
+    
+
+}
+.FotosDoHomemAranha2{
+    
+    border-radius: 5%;
+    height: 132;
+    width: 300px;
+}
+.FotosDoHomemAranha3{
+    height: 195px;
+    width: 350px;
+    border-radius: 5%;
+}
+
+.rodape{
+    width: 100%;
+    height: 100px;
+    background-color: #B0C4DE;
+}
